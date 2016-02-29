@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row r1">
+    <div class="canvas-wrapper w1">
+        <canvas id="before" class="before"></canvas>
+    </div>
+    <div class="canvas-wrapper w2">
+        <canvas id="after" class="after"></canvas>
+    </div>
+</div>
+
+<div class="row">
+    <div class="file1"><input id="file" type="file" class="image-file" /></div>
+    <div class="color1">From: <input id="color1" type="color" /></div>
+    <div class="color2">To: <input id="color2" type="color" /></div>
+    <div class="radius">Radius: <input id="range" type="range" class="range" min="0" max="150" step="1" value="10"><input type="text" class="rangeValue" readonly></div>
+    <div class="filter"><button>Filter</button></div>
+</div>

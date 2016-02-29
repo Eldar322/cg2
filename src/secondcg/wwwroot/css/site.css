@@ -1,0 +1,47 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.w2{
+}
+
+.r1{
+    margin-bottom: 20px;
+}
+
+.canvas-wrapper{  
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    outline: 4px groove;
+}
+
+.color1, .color2, .file1, .radius, .filter{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.rangeValue{
+    margin-left: 10px;
+    width: 30px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.r3{
+    margin-top: 25px;
+}
